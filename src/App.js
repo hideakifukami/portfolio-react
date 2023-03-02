@@ -1,6 +1,12 @@
+import Header from "./components/Header";
+import GlobalStyle from "./styles/global"
+
 const App = () => {
   return (
-      <p> Teste </p>
+      <>
+        <Header />
+        <GlobalStyle />
+      </>
   );
 }
 
