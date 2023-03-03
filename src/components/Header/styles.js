@@ -9,7 +9,11 @@ export const Header = styled.header`
     top: 0;
     width: 100%;
     z-index: 999;
-    display: block;
+
+    @media (max-width: 768px) { 
+        padding-top: 16px;
+    }
+    
 `
 
 export const MediaHeader = styled.div`
@@ -21,16 +25,24 @@ export const MediaHeader = styled.div`
     left: 16px;
     gap: 8px;
     top: 0px;
+
+    @media (max-width: 1024px) { 
+        display: none;
+    }
 `
 
 export const MediaHeaderLine = styled.span`
+    
     width: 1px;
     height: 33vh;
     background-color: ${colorData.gray};
     display: block;
+    
 `
 
 export const MediaHeaderLinks = styled.div`
+    
     display: grid;
     grid-auto-columns: 1fr;
+    
 `

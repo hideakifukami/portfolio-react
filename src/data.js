@@ -1,6 +1,8 @@
 import Email from "./img/Email.svg"
 import Github from "./img/Github.svg"
 import Linkedin from "./img/Linkedin.svg"
+import LogoOut from "./img/logo-outline.svg"
+import Hero from "./img/hero.png"
 
 export const colorData = {
     primary: "hsl(287 60% 65%)",
@@ -32,5 +34,17 @@ export const mediaIcons = {
         href: "https://www.linkedin.com/in/hideaki-fukami/",
         src: Linkedin,
         alt: "linkedin"
+    }
+}
+
+export const heroData = {
+    logo: {
+        src: LogoOut,
+        alt: "Logotipo de fundo"
+    },
+
+    image: {
+        src: Hero,
+        alt: "Fotografia de Hideaki Fukami"
     }
 }

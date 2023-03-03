@@ -5,6 +5,10 @@ export const Container = styled.div`
     max-width: 1024px;
     margin: 0 auto;
     position: relative;
+
+    @media (max-width: 1024px) {
+        padding: 16px;
+    }
 `
 
 export const HeaderInner = styled.div`
@@ -19,16 +23,11 @@ export const HeaderInner = styled.div`
 export const Logo = styled.a`
     display: flex;
     gap: 8px;
-    text-decoration: none;
-    color: inherit;
-
 `
 
 export const LogoImg = styled.img`
     aspect-ratio: 1;
     width: 16px;
-    max-width: 100%;
-    display: block;
 `
 
 
@@ -40,15 +39,22 @@ export const Nav = styled.nav`
     display: flex;
     align-items: flex-start;
     gap: 32px;
+
+    @media (max-width: 768px) { 
+        display: none;
+    }
 `
 
 export const NavLink = styled.a`
     color: ${colorData.gray};
-    text-decoration: none;
 
     ::before {
         content: "#";
         color: ${colorData.primary};
         font-weight: normal;
+    }
+
+    :hover {
+        color: ${colorData.white};
     }
 `
