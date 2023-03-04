@@ -37,14 +37,6 @@ export const HeroIllustrations = styled.div`
     flex-direction: column;
 `
 
-export const HeroLogo = styled.img`
-    position: absolute;
-    width: 30vmin;
-    top: 10%;
-    z-index: 1;
-    aspect-ratio: 1;
-`
-
 export const HeroImage = styled.img`
     position: relative;
     z-index: 2;

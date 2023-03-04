@@ -2,7 +2,7 @@ import React from 'react'
 import PrimaryButton from '../PrimaryButton'
 import * as C from './styles'
 
-const Hero = ({ srcLogo, altLogo, srcImage, altImage, href }) => {
+const Hero = ({ srcImage, altImage, href }) => {
   return (
     <C.Hero>
         <C.HeroContent>
@@ -17,7 +17,6 @@ const Hero = ({ srcLogo, altLogo, srcImage, altImage, href }) => {
             <PrimaryButton />
         </C.HeroContent>
         <C.HeroIllustrations>
-            <C.HeroLogo src={srcLogo} alt={altLogo}/>
             <C.HeroImage src={srcImage} alt={altImage}/>
             <C.HeroStatus>
                 Currently working on

@@ -37,12 +37,7 @@ export const mediaIcons = {
     }
 }
 
-export const heroData = {
-    logo: {
-        src: LogoOut,
-        alt: "Logotipo de fundo"
-    },
-
+export const heroData = {    
     image: {
         src: Hero,
         alt: "Fotografia de Hideaki Fukami"
