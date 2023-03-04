@@ -13,5 +13,10 @@ export const ProjectsHeader = styled.div`
 `
 
 export const ProjectList = styled.div`
-
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    align-items: start;
+    margin-top: 48px;
 `

@@ -6,7 +6,10 @@ const Project = ({ src, alt, techs, name, description, hrefLive, hrefGit }) => {
     <C.Project>
         <C.ProjectImage src={src} alt={alt} />
         <C.ProjectTechs>
-            <C.ProjectTech>{techs}</C.ProjectTech>
+            <C.ProjectTech>{techs.tech1}</C.ProjectTech>
+            <C.ProjectTech>{techs.tech2}</C.ProjectTech>
+            <C.ProjectTech>{techs.tech3}</C.ProjectTech>
+            <C.ProjectTech>{techs.tech4}</C.ProjectTech>
         </C.ProjectTechs>
         <C.ProjectContent>
             <C.ProjectName>{name}</C.ProjectName>
