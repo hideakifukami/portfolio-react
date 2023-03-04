@@ -7,19 +7,18 @@ const Hero = ({ srcImage, altImage, href }) => {
     <C.Hero>
         <C.HeroContent>
             <C.HeroTitle>
-                Hideaki is a 
-                <C.HeroTitleSpan> web designer </C.HeroTitleSpan>
-                 and 
-                <C.HeroTitleSpan> front-end </C.HeroTitleSpan>
-                 developer
+                Hideaki Fukami é um desenvolvedor de 
+                <C.HeroTitleSpan> software </C.HeroTitleSpan>
+                 e 
+                <C.HeroTitleSpan> front-end</C.HeroTitleSpan>
             </C.HeroTitle>
-            <C.HeroDescription>He crafts responsive websites where technologies meet creativity</C.HeroDescription>
+            <C.HeroDescription>Construindo soluções criativas para a resolução de problemas.</C.HeroDescription>
             <PrimaryButton href='https://wa.me/5511952119987' />
         </C.HeroContent>
         <C.HeroIllustrations>
             <C.HeroImage src={srcImage} alt={altImage}/>
             <C.HeroStatus>
-                Currently working on
+                Projeto atual:
                 <C.HeroStatusLink href={href}> Portfolio</C.HeroStatusLink>
             </C.HeroStatus>
         </C.HeroIllustrations>

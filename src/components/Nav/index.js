@@ -9,9 +9,9 @@ const Nav = () => {
         <C.HeaderInner>
             <Logo srcLogo={logoImage.logo} altLogo='Logotipo' logoName='Hideaki Fukami'/>
             <C.Nav>
-                <C.NavLink>home</C.NavLink>
-                <C.NavLink>projects</C.NavLink>
-                <C.NavLink>about-me</C.NavLink>
+                <C.NavLink>inicio</C.NavLink>
+                <C.NavLink>projetos</C.NavLink>
+                <C.NavLink>sobre-mim</C.NavLink>
             </C.Nav>
         </C.HeaderInner>
     </C.Container>

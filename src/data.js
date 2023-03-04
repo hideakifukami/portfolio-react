@@ -103,7 +103,7 @@ export const ProjectData = {
 export const footerData = {
     hrefEmail: 'mailto:denys.fukami@gmail.com',
     email: 'denys.fukami@gmail.com',
-    description: 'Web designer and front-end developer based in Brazil',
+    description: 'Desenvolvedor de software multiplataforma residindo no Brasil.',
     title: 'Media',
     copyright: 'Copyright 2023. Made by Hideaki Fukami'
 }
