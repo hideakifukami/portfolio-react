@@ -7,8 +7,9 @@ export const Logo = styled.a`
 
 export const LogoImg = styled.img`
     aspect-ratio: 1;
-    width: 16px;
+    width: 20px;
 `
 
 export const LogoName = styled.p`
+    font-weight: 500;
 `

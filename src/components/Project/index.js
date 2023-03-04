@@ -15,8 +15,8 @@ const Project = ({ src, alt, techs, name, description, hrefLive, hrefGit }) => {
             <C.ProjectName>{name}</C.ProjectName>
             <C.ProjectDescription>{description}</C.ProjectDescription>
             <C.ProjectLinks>
-                <C.ProjectButton href={hrefLive}>Live ={">"}</C.ProjectButton>
-                <C.ProjectButton href={hrefGit}>Github ={">"}</C.ProjectButton>
+                <C.ProjectButton target='_blank' href={hrefLive}>Live ={">"}</C.ProjectButton>
+                <C.ProjectButton target='_blank' href={hrefGit}>Github ={">"}</C.ProjectButton>
             </C.ProjectLinks>
         </C.ProjectContent>
     </C.Project>

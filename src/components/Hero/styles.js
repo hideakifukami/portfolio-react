@@ -70,6 +70,7 @@ export const HeroStatus = styled.div`
 export const HeroStatusLink = styled.a`
     color: ${colorData.white};
     text-decoration: underline;
+    cursor: pointer;
 
     :hover {
         color: ${colorData.primary}

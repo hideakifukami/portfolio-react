@@ -1,7 +1,7 @@
 import Email from "./img/Email.svg"
 import Github from "./img/Github.svg"
 import Linkedin from "./img/Linkedin.svg"
-import LogoOut from "./img/logo-outline.svg"
+import Logo from "./img/logo.png"
 import Hero from "./img/hero.png"
 import Fruto from "./img/fruto.png"
 import Financeiro from "./img/financeiro.png"
@@ -20,6 +20,10 @@ export const colorData = {
 
 export const fontData = {
     fontPrimary: '"Fira Code", monospace'
+}
+
+export const logoImage = {
+    logo: Logo
 }
 
 export const mediaIcons = {

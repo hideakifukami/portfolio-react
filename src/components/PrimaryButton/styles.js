@@ -6,6 +6,7 @@ export const Button = styled.a`
     padding: 8px 16px;
     border: 1px solid ${colorData.primary};
     font-weight: 500;
+    cursor: pointer;
 
     :hover { 
         background-color: ${colorData.primaryOp};

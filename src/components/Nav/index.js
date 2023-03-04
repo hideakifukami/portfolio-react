@@ -1,4 +1,5 @@
 import React from 'react'
+import { logoImage } from '../../data'
 import Logo from '../Logo'
 import * as C from './styles'
 
@@ -6,7 +7,7 @@ const Nav = () => {
   return (
     <C.Container>
         <C.HeaderInner>
-            <Logo srcLogo={''} altLogo='Logotipo' logoName='Hideaki Fukami'/>
+            <Logo srcLogo={logoImage.logo} altLogo='Logotipo' logoName='Hideaki Fukami'/>
             <C.Nav>
                 <C.NavLink>home</C.NavLink>
                 <C.NavLink>projects</C.NavLink>

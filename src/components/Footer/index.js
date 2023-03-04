@@ -1,5 +1,5 @@
 import React from 'react'
-import { mediaIcons } from '../../data'
+import { logoImage, mediaIcons } from '../../data'
 import Logo from '../Logo'
 import MediaLinks from '../MediaLinks'
 import * as C from './styles'
@@ -11,7 +11,7 @@ const Footer = ({ hrefEmail, email, description, title, copyright }) => {
             <C.FooterInner>
                 <C.FooterInfo>
                     <C.FooterHeader>
-                        <Logo srcLogo={''} altLogo='Logotipo' logoName='Hideaki Fukami' />
+                        <Logo srcLogo={logoImage.logo} altLogo='Logotipo' logoName='Hideaki Fukami' />
                         <C.FooterEmail href={hrefEmail}>{email}</C.FooterEmail>
                     </C.FooterHeader>
                     <C.FooterDescription>{description}</C.FooterDescription>

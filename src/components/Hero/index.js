@@ -14,7 +14,7 @@ const Hero = ({ srcImage, altImage, href }) => {
                  developer
             </C.HeroTitle>
             <C.HeroDescription>He crafts responsive websites where technologies meet creativity</C.HeroDescription>
-            <PrimaryButton />
+            <PrimaryButton href='https://wa.me/5511952119987' />
         </C.HeroContent>
         <C.HeroIllustrations>
             <C.HeroImage src={srcImage} alt={altImage}/>

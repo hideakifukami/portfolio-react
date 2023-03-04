@@ -5,7 +5,7 @@ import * as C from './styles'
 const MediaLinks = ({ href, src, alt }) => {
   return (
     <>
-        <C.MediaLink href={href}>
+        <C.MediaLink target='_blank' href={href}>
             <C.MediaIcon src={src} alt={alt}/>
         </C.MediaLink>
     </>

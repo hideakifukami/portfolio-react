@@ -33,6 +33,7 @@ export const Nav = styled.nav`
 
 export const NavLink = styled.a`
     color: ${colorData.gray};
+    cursor: pointer;
 
     ::before {
         content: "#";
